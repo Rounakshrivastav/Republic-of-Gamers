@@ -1,0 +1,76 @@
+body{
+    background-image: url("gaming.jpg");
+}
+
+p{
+    color:honeydew;
+    background-color: black;
+    font-size: 70px;
+    text-align: center;
+    text-decoration: underline;
+    border:2px solid honeydew;
+    /* border-top: 2px solid honeydew;
+    border-left: 2px solid honeydew;
+    border-right: 2px solid honeydew; */
+}
+
+.anchor_class{
+    display: list-item;
+    list-style: none;
+    margin-top: 40px;
+}
+
+#rockPaperScissorBtn{
+    /* margin-top: 1000px; */
+    margin-left: 400px;
+    background-color: yellow;
+    font-size: 50px;
+    height:80px;
+    width:700px;
+    border:4px solid black;
+    border-radius: 20px;
+    box-shadow: 10px;
+}
+
+#ticTactoeBtn{
+    margin-left: 400px;
+    background-color: yellow;
+    font-size: 50px;
+    height:80px;
+    width:700px;
+    border:4px solid black;
+    border-radius: 20px;
+    box-shadow: -10;
+}
+
+#breakThroughBtn{
+    margin-left: 400px;
+    background-color: yellow;
+    font-size: 50px;
+    height:80px;
+    width:700px;
+    border:4px solid black;
+    border-radius: 20px;
+    box-shadow: -10;
+}
+
+#rockPaperScissorBtn:hover{
+    height:82px;
+    width:702px;
+    border-width: 7px;
+    border-color:rgb(126, 126, 246);
+}
+
+#ticTactoeBtn:hover{
+    height:82px;
+    width:702px;
+    border-width: 7px;
+    border-color:rgb(126, 126, 246);
+}
+
+#breakThroughBtn:hover{
+    height:82px;
+    width:702px;
+    border-width: 7px;
+    border-color:rgb(126, 126, 246);
+}

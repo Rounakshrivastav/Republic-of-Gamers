@@ -1,0 +1,93 @@
+*{
+    background-color: rgb(195, 238, 248);
+}
+
+section{
+    display:grid;
+    grid-template-columns:repeat(3,10vw);
+    grid-template-rows: repeat(3,10vw);
+    margin-left: 500px;
+    /* background-color: rgb(134, 246, 201); */
+}
+
+#game_heading{
+    margin-left: 590px;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: underline;
+}
+
+#result_heading{
+    margin-left: 610px;
+}
+
+.btn{
+    font-size:50px;
+    background-color: rgb(155, 249, 155);
+}
+
+.btn:hover{
+    background-color: rgb(234, 191, 227);
+}
+
+.bt-0{
+    border-top: 0;
+}
+.bb-0{
+    border-bottom: 0;
+}
+.br-0{
+    border-right: 0;
+}
+.bl-0{
+    border-left: 0;
+}
+
+.spanClass{
+    font-size: 50px;
+}
+
+#reset{
+    background-color: rgb(246, 102, 102);
+    font-size: 30px;
+    height: 40px;
+    width: 180px;
+    margin-left:640px;
+    margin-top: 40px;
+    border-radius: 7px;
+}
+
+#reset:hover{
+    background-color: rgb(246, 102, 102);
+    font-size: 31px;
+    height: 44px;
+    width: 184px;
+    margin-left:640px;
+    margin-top: 40px;
+    border-radius: 7px;
+}
+
+#guide{
+    background-color: rgb(246, 102, 102);
+    font-size: 30px;
+    height: 40px;
+    width: 180px;
+    margin-left:640px;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+
+#guide:hover{
+    background-color: rgb(246, 102, 102);
+    font-size: 31px;
+    height: 44px;
+    width: 184px;
+    margin-left:640px;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+
+a{
+    color: black;
+    background-color:rgb(246, 102, 102);
+    text-decoration: none;
+}
